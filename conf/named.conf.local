@@ -1,0 +1,9 @@
+
+zone "asirjony.com." {
+        type master;
+        file "/var/lib/bind/db.asirjony.com";
+        notify explicit;
+        allow-query {
+                any;
+                };
+    };
